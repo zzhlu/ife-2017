@@ -1,0 +1,46 @@
+#container{
+	background-color: #eee;
+	padding:20px;
+	border:1px solid #999;
+	overflow: auto;
+}
+
+#left{
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	border:1px solid #999;
+	background-color: white;
+}
+
+#left>img{
+	margin:20px;
+}
+
+#left>span{
+	vertical-align: top;
+	position: relative;
+	top: 20px;
+}
+
+#right{
+	float: right;
+	width: 120px;
+	margin-left: 20px;
+	border:1px solid #999;
+	background-color: white;
+}
+
+#right>img{
+	margin:20px;
+	background-color: white;
+	border:1px solid #999;
+}
+
+#middle{
+	position: absolute;
+	left: 260px;
+	right: 180px;
+	border:1px solid #999;
+	background-color: white;
+}
